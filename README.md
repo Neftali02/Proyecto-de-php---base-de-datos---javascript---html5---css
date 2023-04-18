@@ -1,1 +1,1 @@
-# Proyecto-de-php---base-de-datos---javascript---html5---css
+# Proyecto de php base de datos javascript html 5 css
