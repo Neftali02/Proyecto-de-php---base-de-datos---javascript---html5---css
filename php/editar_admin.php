@@ -35,6 +35,7 @@ if($solicitud === FALSE){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/icono-pagina.png">
+    <!-- <link rel="stylesheet" href="../css/hoja_estilo.css"> -->
     <link rel="stylesheet" href="../css/hoja_estilos.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <title>Editar Usuario</title>
@@ -56,7 +57,7 @@ if($solicitud === FALSE){
         <div class="imagen-formulario">
             <img src="../images/formulario.png" alt="" class="imagen">
         </div>
-        <div>
+        <div class="form-editar">
             <form action="actualizar_informacion.php" method="post" class="formulario-editar">
                 <div class="id">
                     <label for="">No. Identificador</label>
@@ -73,12 +74,12 @@ if($solicitud === FALSE){
                     <br>
                     <input type="date" value="<?php echo $solicitud->fecha?>" name="fecha" id="" class="input-formulario">
                 </div>
-                <div class="correo">
+                <div class="correo google">
                     <label for="">Correo Electronico</label>
                     <br>
                     <input type="email" value="<?php echo $solicitud->correo?>" name="correo" id="" class="input-formulario">
                 </div>
-                <div class="pass">
+                <div class="pass google">
                     <label for="">Contraseña</label>
                     <br>
                     <input type="text" value="<?php echo $solicitud->pass?>" name="pass" id="" class="input-formulario">
